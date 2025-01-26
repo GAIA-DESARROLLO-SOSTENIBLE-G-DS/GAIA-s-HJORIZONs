@@ -4,8 +4,13 @@ Esta entidad se enfoca en la investigación avanzada, innovación tecnológica, 
 **Entity: GAIA's HORIZONs**
 
 
-```gitGraph
-file:///C:/Users/amate/Downloads/Untitled%20diagram-2025-01-26-143908.svg
+To render the SVG file in your README, you should replace the local file path with a relative path to the image hosted in your repository. Ensure that the SVG file is added to your repository. Here is an example of how to reference the SVG file in your README:
+
+```markdown
+![Diagram](../path/to/Untitled%20diagram-2025-01-26-143908.svg)
+```
+
+Replace `../path/to/` with the correct relative path to the SVG file in your repository. This way, the diagram will be rendered correctly when viewed on GitHub.
 
     commit id: "Inicialización del Proyecto"
     branch master
