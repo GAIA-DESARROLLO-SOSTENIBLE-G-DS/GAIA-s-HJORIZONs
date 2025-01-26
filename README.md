@@ -5,7 +5,6 @@ Esta entidad se enfoca en la investigación avanzada, innovación tecnológica, 
 
 It looks like you want to include a gitgraph diagram in your README. Here's the correct syntax for the gitgraph:
 
-```markdown
 ## Git Graph
 
 ```gitgraph
@@ -332,7 +331,6 @@ Todos estos se documentan bajo la *COAFI* y se indexan en el **“Cosmic Index�
 ## **Diagrama de Componentes (Mermaid ejemplar)**
 
 
-```markdown
 ## **Diagrama de Componentes (Mermaid ejemplar)**
 
 ```mermaid
