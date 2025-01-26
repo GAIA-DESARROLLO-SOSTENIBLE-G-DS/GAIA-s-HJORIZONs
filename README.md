@@ -329,21 +329,26 @@ Todos estos se documentan bajo la *COAFI* y se indexan en el **“Cosmic Index�
 
 ## **Diagrama de Componentes (Mermaid ejemplar)**
 
+
+```markdown
+## **Diagrama de Componentes (Mermaid ejemplar)**
+
 ```mermaid
 graph LR
     subgraph GAIA AIR - ZEPHyR Ecosystem
-    A(Q-01 Quantum Propulsion)
-    B(AEHCS)
-    C(FADEC)
-    D(ML-P)
-    E(AMPEL360XWLRGA)
+        A(Q-01 Quantum Propulsion)
+        B(AEHCS)
+        C(FADEC)
+        D(ML-P)
+        E(AMPEL360XWLRGA)
     end
 
     A -- "Primary Thrust" --> E
     B -- "Energy Support" --> A
     C -- "Control & Monitoring" --> A
-    D -- "AI Optimization" --> [FADEC/AEHCS/Q-01]
-    E -- "Aircraft Integration" --> A & B
+    D -- "AI Optimization" --> C
+    E -- "Aircraft Integration" --> A
+    E -- "Aircraft Integration" --> B
 
     style A fill:#fffcb2,stroke:#bba,stroke-width:1px
     style B fill:#b2ffc5,stroke:#bbf,stroke-width:1px
@@ -352,7 +357,6 @@ graph LR
     style E fill:#ccc,stroke:#999,stroke-width:1px
 ```
 
----
 
 ### **Contacto / Créditos**
 
