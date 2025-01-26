@@ -3,15 +3,10 @@ Esta entidad se enfoca en la investigación avanzada, innovación tecnológica, 
 
 **Entity: GAIA's HORIZONs**
 
-
-To render the SVG file in your README, you should replace the local file path with a relative path to the image hosted in your repository. Ensure that the SVG file is added to your repository. Here is an example of how to reference the SVG file in your README:
+https://www.mermaidchart.com/app/projects/877b934b-c0dd-4764-8c5f-99a393357512/diagrams/5a63345b-ee80-45e6-a71f-d468f525889a/version/v0.1/edit
 
 ```markdown
-![Diagram](../path/to/Untitled%20diagram-2025-01-26-143908.svg)
-```
-
-Replace `../path/to/` with the correct relative path to the SVG file in your repository. This way, the diagram will be rendered correctly when viewed on GitHub.
-
+gitgraph
     commit id: "Inicialización del Proyecto"
     branch master
     checkout master
