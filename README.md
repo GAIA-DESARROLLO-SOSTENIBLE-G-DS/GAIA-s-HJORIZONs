@@ -897,8 +897,8 @@ Además, teorías alternativas de la gravedad pueden predecir polarizaciones adi
 
 ```mermaid
 graph LR
-    A[Ondas Gravitacionales] --> B[Polarización Plus (+)]
-    A --> C[Polarización Cross (×)]
+    A[Ondas Gravitacionales] --> B[Polarización Plus +]
+    A --> C[Polarización Cross ×]
     B --> D[Deformaciones Perpendiculares]
     C --> E[Deformaciones Diagonales]
 ```
