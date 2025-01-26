@@ -3,79 +3,81 @@ Esta entidad se enfoca en la investigación avanzada, innovación tecnológica, 
 
 **Entity: GAIA's HORIZONs**
 
-https://www.mermaidchart.com/app/projects/877b934b-c0dd-4764-8c5f-99a393357512/diagrams/5a63345b-ee80-45e6-a71f-d468f525889a/version/v0.1/edit
-https://www.mermaidchart.com/raw/5a63345b-ee80-45e6-a71f-d468f525889a?theme=light&version=v0.1&format=svg
+It looks like you want to include a gitgraph diagram in your README. Here's the correct syntax for the gitgraph:
 
 ```markdown
-gitgraph
-    commit id: "Inicialización del Proyecto"
-    branch master
-    checkout master
-    branch SRS
-    checkout SRS
-    commit id: "Crear System Requirements Specification (SRS)"
-    branch SRH
-    checkout SRH
-    commit id: "Crear System Required Hardware (SRH)"
-    checkout SRS
-    merge SRH id: "Integrar SRH en SRS"
-    
-    branch SDD
-    checkout SDD
-    commit id: "Crear Software Design Document (SDD)"
-    checkout SRS
-    merge SDD id: "Integrar SDD en SRS"
-    
-    branch FMEA
-    checkout FMEA
-    commit id: "Crear Failure Modes and Effects Analysis (FMEA)"
-    checkout SRH
-    merge FMEA id: "Integrar FMEA en SRH"
-    
-    branch VTP
-    checkout VTP
-    commit id: "Crear Validation and Test Plan (VTP)"
-    checkout SRS
-    merge VTP id: "Integrar VTP en SRS"
-    
-    branch SEC
-    checkout SEC
-    commit id: "Crear Cybersecurity Measures (SEC)"
-    checkout SRH
-    merge SEC id: "Integrar SEC en SRH"
-    
-    branch TRACE
-    checkout TRACE
-    commit id: "Crear Traceability Matrix (TRACE)"
-    checkout SRS
-    merge TRACE id: "Integrar TRACE en SRS"
-    
-    branch FDR
-    checkout FDR
-    commit id: "Realizar Final Design Review (FDR)"
-    checkout master
-    merge SRS id: "Integrar SRS en Master"
-    merge SRH id: "Integrar SRH en Master"
-    merge FDR id: "Finalizar FDR y Merge en Master"
-    
-    branch AMM
-    checkout AMM
-    commit id: "Crear Aircraft Maintenance Manual (AMM)"
-    checkout master
-    merge AMM id: "Integrar AMM en Master"
-    
-    branch TSM
-    checkout TSM
-    commit id: "Crear Troubleshooting Manual (TSM)"
-    checkout master
-    merge TSM id: "Integrar TSM en Master"
-    
-    branch APP
-    checkout APP
-    commit id: "Crear Approval Documentation (APP)"
-    checkout master
-    merge APP id: "Integrar APP en Master"
+## Git Graph
+
+```gitgraph
+commit id: "Inicialización del Proyecto"
+branch master
+checkout master
+branch SRS
+checkout SRS
+commit id: "Crear System Requirements Specification (SRS)"
+branch SRH
+checkout SRH
+commit id: "Crear System Required Hardware (SRH)"
+checkout SRS
+merge SRH id: "Integrar SRH en SRS"
+
+branch SDD
+checkout SDD
+commit id: "Crear Software Design Document (SDD)"
+checkout SRS
+merge SDD id: "Integrar SDD en SRS"
+
+branch FMEA
+checkout FMEA
+commit id: "Crear Failure Modes and Effects Analysis (FMEA)"
+checkout SRH
+merge FMEA id: "Integrar FMEA en SRH"
+
+branch VTP
+checkout VTP
+commit id: "Crear Validation and Test Plan (VTP)"
+checkout SRS
+merge VTP id: "Integrar VTP en SRS"
+
+branch SEC
+checkout SEC
+commit id: "Crear Cybersecurity Measures (SEC)"
+checkout SRH
+merge SEC id: "Integrar SEC en SRH"
+
+branch TRACE
+checkout TRACE
+commit id: "Crear Traceability Matrix (TRACE)"
+checkout SRS
+merge TRACE id: "Integrar TRACE en SRS"
+
+branch FDR
+checkout FDR
+commit id: "Realizar Final Design Review (FDR)"
+checkout master
+merge SRS id: "Integrar SRS en Master"
+merge SRH id: "Integrar SRH en Master"
+merge FDR id: "Finalizar FDR y Merge en Master"
+
+branch AMM
+checkout AMM
+commit id: "Crear Aircraft Maintenance Manual (AMM)"
+checkout master
+merge AMM id: "Integrar AMM en Master"
+
+branch TSM
+checkout TSM
+commit id: "Crear Troubleshooting Manual (TSM)"
+checkout master
+merge TSM id: "Integrar TSM en Master"
+
+branch APP
+checkout APP
+commit id: "Crear Approval Documentation (APP)"
+checkout master
+merge APP id: "Integrar APP en Master"
 ```
+
 
 A continuación se presenta una **versión consolidada** que integra el enfoque del proyecto **GAIA AIR - ZEPHyR** (Zero-Emission Propulsion and Horizon Operations – Research & Development) con la documentación COAFI, los **árboles de componentes**, la estructura S1000D, la referencia a los **documentos de ingeniería** (PDR, SRS, BOM) y los **módulos de datos** (DMC) relevantes.  
 Todo se ha redactado en español y siguiendo la metodología de numeración y organización discutida previamente.
