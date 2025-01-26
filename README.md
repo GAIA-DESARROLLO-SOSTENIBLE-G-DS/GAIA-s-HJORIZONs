@@ -4,6 +4,7 @@ Esta entidad se enfoca en la investigación avanzada, innovación tecnológica, 
 **Entity: GAIA's HORIZONs**
 
 https://www.mermaidchart.com/app/projects/877b934b-c0dd-4764-8c5f-99a393357512/diagrams/5a63345b-ee80-45e6-a71f-d468f525889a/version/v0.1/edit
+https://www.mermaidchart.com/raw/5a63345b-ee80-45e6-a71f-d468f525889a?theme=light&version=v0.1&format=svg
 
 ```markdown
 gitgraph
