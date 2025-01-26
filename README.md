@@ -3,7 +3,10 @@ Esta entidad se enfoca en la investigación avanzada, innovación tecnológica, 
 
 **Entity: GAIA's HORIZONs**
 
+
 ```gitGraph
+file:///C:/Users/amate/Downloads/Untitled%20diagram-2025-01-26-143908.svg
+
     commit id: "Inicialización del Proyecto"
     branch master
     checkout master
